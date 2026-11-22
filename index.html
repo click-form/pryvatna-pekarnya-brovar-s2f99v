@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Приватна Пекарня у Броварах — Свіжий хліб та випічка</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">🍞</span>
+                <span class="logo-text" data-i18n="brand_name">Приватна Пекарня</span>
+            </a>
+            <nav class="main-nav" id="mainNav">
+                <ul>
+                    <li><a href="index.html" class="active" data-i18n="nav_home">Головна</a></li>
+                    <li><a href="about.html" data-i18n="nav_about">Про нас</a></li>
+                    <li><a href="services.html" data-i18n="nav_services">Асортимент</a></li>
+                    <li><a href="gallery.html" data-i18n="nav_gallery">Галерея</a></li>
+                    <li><a href="contacts.html" data-i18n="nav_contacts">Контакти</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <div class="lang-switcher">
+                    <button class="lang-btn active" data-lang="uk">UA</button>
+                    <button class="lang-btn" data-lang="ru">RU</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                </div>
+                <a href="tel:+380685706992" class="phone-btn">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                    <span>+38 068 570 6992</span>
+                </a>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <span class="badge" data-i18n="hero_badge">Свіжі традиції щодня</span>
+                    <h1 data-i18n="hero_title">Свіжа випічка та хліб у Броварах</h1>
+                    <p data-i18n="hero_subtitle">Затишне місце, де щодня готують традиційний хліб, вишукану випічку та смачні десерти за найкращими рецептами з любов'ю та турботою.</p>
+                    <div class="hero-buttons">
+                        <a href="services.html" class="btn btn-primary" data-i18n="btn_assortment">Переглянути асортимент</a>
+                        <a href="contacts.html" class="btn btn-secondary" data-i18n="btn_visit">Як нас знайти</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <div class="hero-card-badge">
+                        <span class="star">⭐</span>
+                        <span data-i18n="hero_fresh">Виключно свіжі інгредієнти</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 data-i18n="features_title">Чому обирають нас</h2>
+                    <p data-i18n="features_subtitle">Ми дбаємо про якість та затишок для кожного відвідувача</p>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🌾</div>
+                        <h3 data-i18n="feat_1_title">Традиційні рецепти</h3>
+                        <p data-i18n="feat_1_desc">Готуємо хліб та десерти за перевіреними рецептами з найкращих інгредієнтів.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🔥</div>
+                        <h3 data-i18n="feat_2_title">Свіжа випічка щодня</h3>
+                        <p data-i18n="feat_2_desc">Ароматна скоринка та неймовірний смак щодня чекають на вас у нашій пекарні.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">☕</div>
+                        <h3 data-i18n="feat_3_title">Затишна атмосфера</h3>
+                        <p data-i18n="feat_3_desc">Можливість взяти улюблені смаколики із собою або відпочити на літньому майданчику.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-preview section-padding bg-light">
+            <div class="container grid-2">
+                <div class="about-preview-text">
+                    <span class="subtitle" data-i18n="about_tag">Про пекарню</span>
+                    <h2 data-i18n="about_prev_title">З любов'ю до кожного виробу</h2>
+                    <p data-i18n="about_prev_desc">Приватна Пекарня у місті Бровари — це затишне місце, де щодня готують традиційний хліб, вишукану випічку та смачні десерти. Ми дбаємо про те, щоб кожен виріб був не лише неймовірно апетитним, але й створеним з любов'ю та турботою.</p>
+                    <a href="about.html" class="btn btn-outline" data-i18n="btn_read_more">Дізнатися більше</a>
+                </div>
+                <div class="about-preview-box">
+                    <div class="info-box-card">
+                        <h3 data-i18n="hours_title">Графік роботи</h3>
+                        <p class="hours-val">Пн-Нд: 08:00 - 20:00</p>
+                        <hr>
+                        <h3 data-i18n="address_title">Адреса</h3>
+                        <p data-i18n="address_val">вул. Чорних Запорожців, 54, Бровари, Київська область</p>
+                        <hr>
+                        <h3 data-i18n="phone_title">Телефон</h3>
+                        <p><a href="tel:+380685706992">+380 68 570 6992</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <div class="container text-center">
+                <h2 data-i18n="cta_title">Завітайте до нас на ароматну випічку!</h2>
+                <p data-i18n="cta_subtitle">вул. Чорних Запорожців, 54, Бровари. Чекаємо на вас щодня з 08:00 до 20:00.</p>
+                <a href="contacts.html" class="btn btn-primary" data-i18n="cta_btn">Контакти та мапа</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <div class="footer-col">
+                <a href="index.html" class="logo footer-logo">
+                    <span class="logo-icon">🍞</span>
+                    <span class="logo-text" data-i18n="brand_name">Приватна Пекарня</span>
+                </a>
+                <p data-i18n="footer_desc">Свіжий хліб, вишукана випічка та десерти у Броварах.</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_nav_title">Навігація</h4>
+                <ul>
+                    <li><a href="index.html" data-i18n="nav_home">Головна</a></li>
+                    <li><a href="about.html" data-i18n="nav_about">Про нас</a></li>
+                    <li><a href="services.html" data-i18n="nav_services">Асортимент</a></li>
+                    <li><a href="gallery.html" data-i18n="nav_gallery">Галерея</a></li>
+                    <li><a href="contacts.html" data-i18n="nav_contacts">Контакти</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_contacts_title">Контакти</h4>
+                <p data-i18n="address_val">вул. Чорних Запорожців, 54, Бровари</p>
+                <p><a href="tel:+380685706992">+380 68 570 6992</a></p>
+                <p data-i18n="hours_val">Пн-Нд: 08:00 - 20:00</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; <span id="currentYear"></span> <span data-i18n="brand_name">Приватна Пекарня</span>. <span data-i18n="rights">Усі права захищені.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
